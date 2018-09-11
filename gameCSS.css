@@ -1,0 +1,93 @@
+     #game{
+    height: 470px;
+	width: 470px;
+	border: 2px solid;
+	margin:100px auto auto auto;
+	border-radius: 470px;
+	background-color: grey;
+	}
+   .button{
+    float: left;
+	height: 200px;
+	width: 200px;
+	border: 2px solid;
+	position: relative;
+	z-index: 10;
+   }
+   #button1{
+    border-top-left-radius: 200px;
+	margin:20px 20px 20px 20px;
+	background-color:#910e12;
+   }
+   #button2{
+    border-top-right-radius: 200px;
+	margin:20px 20px 20px 0px;
+	background-color:#126b0e;
+   }
+   #button3{
+    border-bottom-left-radius: 200px;
+	margin:0px 20px 20px 20px;
+	background-color:#ccc214;
+   }
+   #button4{
+    border-bottom-right-radius: 200px;
+	margin:0px 20px 20px 0px;
+	background-color:#151a66;
+   }
+   #centr{
+    height: 240px;
+	width: 240px;
+	border: 10px solid;
+	position:absolute;
+    margin:105px 0px 0px 105px;
+	background-color:white;
+	border-radius: 240px;
+	z-index:20;
+   }
+   #perekluch{
+    height: 40px;
+	width: 50px;
+	margin-left:88px;
+	display:-webkit-box;
+	-webkit-box-orient: horizontal; 
+   }
+   #onoof{
+    height: 32px;
+	width: 11px;
+	border: 1px solid;
+	background-color:black;
+	float: left;
+   }
+   p{
+    margin:0px;
+   }
+   .onof{
+    height: 15px;
+	width: 10px;
+	background-color:blue;
+	float: left;
+   }
+   #count{
+    height: 50px;
+	width: 80px;
+	background-color:#910e12;
+	position: relative;
+	margin:100px auto auto auto;
+	color: red;
+   }
+   #panel{
+    height: 50px;
+	width: 180px;
+	position: relative;
+	margin:auto;
+   }
+   .displaynone{
+    opacity:0;
+   }
+   .active{
+    background-color:green;
+   }
+   #target8{
+    text-align:center;
+	font-size:40px;
+   }
